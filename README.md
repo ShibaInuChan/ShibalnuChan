@@ -23,7 +23,7 @@ Using **Claude Code** as my primary tool, I design and implement products at the
 
 ## Products
 
-### 🧠 COA Strategy Engine
+### ♟️ COA Strategy Engine
 > AI-powered strategic analysis tool with real-time web intelligence and a proprietary structured reasoning framework
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
