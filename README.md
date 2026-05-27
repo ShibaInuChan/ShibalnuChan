@@ -75,6 +75,18 @@ A point system for regional communities built on Polygon. Designed from the grou
 
 ---
 
+### 🧠 COA Strategy Engine
+> A structured reasoning tool that applies the COA framework (L0–L3) to strategic decision-making, backed by real-time web intelligence
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Claude API](https://img.shields.io/badge/Claude_API-CC785C?style=flat-square&logo=anthropic&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![DuckDuckGo](https://img.shields.io/badge/DuckDuckGo_Search-DE5833?style=flat-square&logo=duckduckgo&logoColor=white)
+
+The COA (Course of Action) reasoning framework — spanning L0 through L3 layers of strategic depth — is embedded directly into Claude's system prompt, shaping how the AI structures every analysis. The engine can fetch and parse any URL, run live DuckDuckGo searches, and synthesize external information into its reasoning in real time. Built as a Streamlit app with full conversation state management, it functions as an always-on strategic thinking partner.
+
+---
+
 ## Tech Stack
 
 **Languages**
@@ -93,6 +105,7 @@ A point system for regional communities built on Polygon. Designed from the grou
 
 ![Claude API](https://img.shields.io/badge/Claude_API-CC785C?style=flat-square&logo=anthropic&logoColor=white)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-CC785C?style=flat-square&logo=anthropic&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 
 **Blockchain**
 
