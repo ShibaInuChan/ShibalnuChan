@@ -23,6 +23,32 @@ Using **Claude Code** as my primary tool, I design and implement products at the
 
 ## Products
 
+### 🧠 COA Strategy Engine
+> AI-powered strategic analysis tool with real-time web intelligence and a proprietary structured reasoning framework
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Claude API](https://img.shields.io/badge/Claude_API-CC785C?style=flat-square&logo=anthropic&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![DuckDuckGo](https://img.shields.io/badge/DuckDuckGo_Search-DE5833?style=flat-square&logo=duckduckgo&logoColor=white)
+
+Applies a proprietary structured reasoning framework to strategic decision-making. The engine can fetch and parse any URL, run live DuckDuckGo searches, and synthesize external information into its analysis in real time. Built as a Streamlit app with full conversation state management, it functions as an always-on strategic thinking partner.
+
+---
+
+### 🔗 Regional Community Points System (Prototype)
+> Blockchain-based loyalty points for local communities — zero legal risk by design
+
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
+![Polygon](https://img.shields.io/badge/Polygon-8247E5?style=flat-square&logo=polygon&logoColor=white)
+![Hardhat](https://img.shields.io/badge/Hardhat-FFF100?style=flat-square&logo=hardhat&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![LINE API](https://img.shields.io/badge/LINE_API-00C300?style=flat-square&logo=line&logoColor=white)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white)
+
+A point system for regional communities built on Polygon. Designed from the ground up to avoid securities law and token regulation risk — architecture decisions driven by legal research, not just technical preference. LINE bot interface for non-crypto-native participants.
+
+---
+
 ### 📊 Investment Macro Dashboard
 > Real-time display of US & Japan economic indicators with AI-powered macro analysis
 
@@ -58,32 +84,6 @@ Scrapes asset prices using BeautifulSoup4 and pushes a morning summary to LINE e
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
 An editorial automation pipeline. When a team member reacts with 👍 on a Slack message, the system fetches the linked article (via Jina AI), runs it through a Claude prompt, and outputs a structured draft. Prompts are maintained by non-technical editors in Notion — zero code changes required.
-
----
-
-### 🔗 Regional Community Points System (Prototype)
-> Blockchain-based loyalty points for local communities — zero legal risk by design
-
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
-![Polygon](https://img.shields.io/badge/Polygon-8247E5?style=flat-square&logo=polygon&logoColor=white)
-![Hardhat](https://img.shields.io/badge/Hardhat-FFF100?style=flat-square&logo=hardhat&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![LINE API](https://img.shields.io/badge/LINE_API-00C300?style=flat-square&logo=line&logoColor=white)
-![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white)
-
-A point system for regional communities built on Polygon. Designed from the ground up to avoid securities law and token regulation risk — architecture decisions driven by legal research, not just technical preference. LINE bot interface for non-crypto-native participants.
-
----
-
-### 🧠 COA Strategy Engine
-> AI-powered strategic analysis tool with real-time web intelligence and a proprietary structured reasoning framework
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Claude API](https://img.shields.io/badge/Claude_API-CC785C?style=flat-square&logo=anthropic&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![DuckDuckGo](https://img.shields.io/badge/DuckDuckGo_Search-DE5833?style=flat-square&logo=duckduckgo&logoColor=white)
-
-Applies a proprietary structured reasoning framework to strategic decision-making. The engine can fetch and parse any URL, run live DuckDuckGo searches, and synthesize external information into its analysis in real time. Built as a Streamlit app with full conversation state management, it functions as an always-on strategic thinking partner.
 
 ---
 
