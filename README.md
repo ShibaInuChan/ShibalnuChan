@@ -74,7 +74,7 @@ Scrapes asset prices using BeautifulSoup4 and pushes a morning summary to LINE e
 
 ---
 
-### 📰 LH News Generator
+### 📰 News Generator
 > Slack 👍 reaction triggers an AI-generated article draft, managed entirely in Notion
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
