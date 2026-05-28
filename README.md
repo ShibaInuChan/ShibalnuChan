@@ -24,14 +24,17 @@ Using **Claude Code** as my primary tool, I design and implement products at the
 ## Products
 
 ### ♟️ COA Strategy Engine
-> AI-powered strategic analysis tool with real-time web intelligence and a proprietary structured reasoning framework
+> SaaS-grade strategic analysis platform — proprietary reasoning framework, subscription tiers, and real-time web intelligence
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Claude API](https://img.shields.io/badge/Claude_API-CC785C?style=flat-square&logo=anthropic&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![DuckDuckGo](https://img.shields.io/badge/DuckDuckGo_Search-DE5833?style=flat-square&logo=duckduckgo&logoColor=white)
 
-Applies a proprietary structured reasoning framework to strategic decision-making. The engine can fetch and parse any URL, run live DuckDuckGo searches, and synthesize external information into its analysis in real time. Built as a Streamlit app with full conversation state management, it functions as an always-on strategic thinking partner.
+A full SaaS platform built around a proprietary structured reasoning framework. Supabase handles auth and data persistence; Stripe powers subscription billing with plan-based model switching (Sonnet for standard tiers, Opus for Pro). A FastAPI webhook layer processes Stripe events in real time to reflect plan changes instantly. The engine enriches every analysis with live web search and URL scraping — delivering structured strategic output that adapts to the user's subscription level.
 
 ---
 
@@ -100,6 +103,9 @@ An editorial automation pipeline. When a team member reacts with 👍 on a Slack
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
 ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
 
 **AI**
 
