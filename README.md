@@ -23,8 +23,8 @@ Using **Claude Code** as my primary tool, I design and implement products at the
 
 ## Products
 
-### ♟️ COA Strategy Engine
-> SaaS-grade strategic analysis platform — proprietary reasoning framework, subscription tiers, and real-time web intelligence
+### ♟️ AXIS
+> Subscription SaaS for strategic analysis — powered by Cognitive OS Architecture, a proprietary reasoning framework built on top of Claude
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Claude API](https://img.shields.io/badge/Claude_API-CC785C?style=flat-square&logo=anthropic&logoColor=white)
@@ -34,7 +34,7 @@ Using **Claude Code** as my primary tool, I design and implement products at the
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![DuckDuckGo](https://img.shields.io/badge/DuckDuckGo_Search-DE5833?style=flat-square&logo=duckduckgo&logoColor=white)
 
-A full SaaS platform built around a proprietary structured reasoning framework. Supabase handles auth and data persistence; Stripe powers subscription billing with plan-based model switching (Sonnet for standard tiers, Opus for Pro). A FastAPI webhook layer processes Stripe events in real time to reflect plan changes instantly. The engine enriches every analysis with live web search and URL scraping — delivering structured strategic output that adapts to the user's subscription level.
+Rather than prompting an LLM directly, AXIS runs each session through Cognitive OS Architecture — a structured cognitive pipeline that sequences problem framing, assumption surfacing, and strategy generation as discrete phases. Supabase handles auth and data persistence; Stripe powers subscription billing with plan-based model switching (Sonnet for standard tiers, Opus for Pro), backed by a FastAPI webhook layer for real-time plan sync. The engine enriches every analysis with live web search and URL scraping to ground output in current market context.
 
 ---
 
