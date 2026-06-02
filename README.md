@@ -34,7 +34,7 @@ Using **Claude Code** as my primary tool, I design and implement products at the
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![DuckDuckGo](https://img.shields.io/badge/DuckDuckGo_Search-DE5833?style=flat-square&logo=duckduckgo&logoColor=white)
 
-Rather than prompting an LLM directly, AXIS runs each session through Cognitive OS Architecture — a structured cognitive pipeline that sequences problem framing, assumption surfacing, and strategy generation as discrete phases. Supabase handles auth and data persistence; Stripe powers subscription billing with plan-based model switching (Sonnet for standard tiers, Opus for Pro), backed by a FastAPI webhook layer for real-time plan sync. The engine enriches every analysis with live web search and URL scraping to ground output in current market context.
+Rather than prompting an LLM directly, AXIS runs each session through Cognitive OS Architecture — a structured cognitive pipeline that sequences problem framing, assumption surfacing, and strategy generation as discrete phases. Supabase handles auth and data persistence; Stripe powers subscription billing with plan-based model switching (all tiers running on Sonnet), backed by a FastAPI webhook layer for real-time plan sync. The engine enriches every analysis with live web search and URL scraping to ground output in current market context.
 
 ---
 
