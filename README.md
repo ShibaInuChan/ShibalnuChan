@@ -37,7 +37,7 @@ Using **Claude Code** as my primary tool, I design and implement products at the
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)
 ![DuckDuckGo](https://img.shields.io/badge/DuckDuckGo_Search-DE5833?style=flat-square&logo=duckduckgo&logoColor=white)
 
-Rather than prompting an LLM directly, AXIS runs each session through Cognitive OS Architecture — a structured cognitive pipeline that executes across four discrete phases: web research, situation structuring, assumption surfacing, and strategy generation. Input your client's context, challenges, and goals; AXIS handles the rest. Supabase handles auth and data persistence; Stripe powers subscription billing with plan-based session and turn limits, backed by a FastAPI webhook layer for real-time plan sync. Hosted on Render.
+Rather than prompting an LLM directly, AXIS COA runs each session through Cognitive OS Architecture — a structured cognitive pipeline that executes across four discrete phases: web research, situation structuring, assumption surfacing, and strategy generation. Input your client's context, challenges, and goals; AXIS COA handles the rest. Supabase handles auth and data persistence; Stripe powers subscription billing with plan-based session and turn limits, backed by a FastAPI webhook layer for real-time plan sync. Hosted on Render.
 
 ---
 
