@@ -53,14 +53,14 @@ A point system for regional communities built on Polygon. Designed from the grou
 ---
 
 ### 📊 Investment Macro Dashboard
-> Real-time display of US & Japan economic indicators with AI-powered macro analysis
+> US & Japan macroeconomic indicators with monthly AI-powered structural analysis
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Claude API](https://img.shields.io/badge/Claude_API-CC785C?style=flat-square&logo=anthropic&logoColor=white)
 
-Fetches live data from the FRED API and surfaces key macroeconomic signals (CPI, GDP, yield curves, etc.) for both US and Japanese markets. Claude API generates narrative analysis on top of the raw data — turning numbers into actionable context.
+Displays key economic signals (CPI, yield curves, interest rate spreads, etc.) for US and Japanese markets. Data is automatically fetched from FRED twice daily via GitHub Actions. Claude AI generates monthly structural macro analysis — turning numbers into actionable investment context.
 
 ---
 
