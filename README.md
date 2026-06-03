@@ -23,7 +23,7 @@ Using **Claude Code** as my primary tool, I design and implement products at the
 
 ## Products
 
-### ♟️ AXIS
+### ♟️ AXIS COA
 > Subscription SaaS for strategic analysis — powered by Cognitive OS Architecture, a proprietary reasoning framework built on top of Claude
 
 🔗 [coa-app.onrender.com](https://coa-app.onrender.com)
