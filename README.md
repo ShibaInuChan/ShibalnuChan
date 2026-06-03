@@ -26,15 +26,18 @@ Using **Claude Code** as my primary tool, I design and implement products at the
 ### ♟️ AXIS
 > Subscription SaaS for strategic analysis — powered by Cognitive OS Architecture, a proprietary reasoning framework built on top of Claude
 
+🔗 [coa-app.onrender.com](https://coa-app.onrender.com)
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Claude API](https://img.shields.io/badge/Claude_API-CC785C?style=flat-square&logo=anthropic&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
 ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)
 ![DuckDuckGo](https://img.shields.io/badge/DuckDuckGo_Search-DE5833?style=flat-square&logo=duckduckgo&logoColor=white)
 
-Rather than prompting an LLM directly, AXIS runs each session through Cognitive OS Architecture — a structured cognitive pipeline that sequences problem framing, assumption surfacing, and strategy generation as discrete phases. Supabase handles auth and data persistence; Stripe powers subscription billing with plan-based model switching (all tiers running on Sonnet), backed by a FastAPI webhook layer for real-time plan sync. The engine enriches every analysis with live web search and URL scraping to ground output in current market context.
+Rather than prompting an LLM directly, AXIS runs each session through Cognitive OS Architecture — a structured cognitive pipeline that executes across four discrete phases: web research, situation structuring, assumption surfacing, and strategy generation. Input your client's context, challenges, and goals; AXIS handles the rest. Supabase handles auth and data persistence; Stripe powers subscription billing with plan-based session and turn limits, backed by a FastAPI webhook layer for real-time plan sync. Hosted on Render.
 
 ---
 
@@ -101,6 +104,7 @@ An editorial automation pipeline. When a team member reacts with 👍 on a Slack
 **Infrastructure**
 
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
 ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
