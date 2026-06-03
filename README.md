@@ -55,8 +55,6 @@ A point system for regional communities built on Polygon. Designed from the grou
 ### 📊 Investment Macro Dashboard
 > Real-time display of US & Japan economic indicators with AI-powered macro analysis
 
-🔗 [investment-dashboard-sooty.vercel.app](https://investment-dashboard-sooty.vercel.app/)
-
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
