@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 | ShibaInuChan — AI Architect</title>
+  <meta name="robots" content="noindex">
+  <style>
+    * { box-sizing: border-box; margin: 0; }
+    body {
+      min-height: 100svh;
+      display: grid;
+      place-items: center;
+      background: #0a0d12;
+      color: #ece7de;
+      font-family: "Noto Sans JP", system-ui, sans-serif;
+      text-align: center;
+      padding: 24px;
+      background-image:
+        linear-gradient(rgba(232,228,220,.06) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(232,228,220,.06) 1px, transparent 1px);
+      background-size: 72px 72px;
+    }
+    .mark { width: 84px; height: 84px; margin: 0 auto 26px; }
+    .code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 13px;
+      letter-spacing: .24em;
+      color: #e8954a;
+      margin-bottom: 14px;
+    }
+    h1 { font-size: clamp(22px, 5vw, 34px); font-weight: 900; line-height: 1.5; margin-bottom: 14px; }
+    p { color: #9aa4b0; font-size: 14px; line-height: 1.9; margin-bottom: 34px; }
+    a.home {
+      display: inline-block;
+      padding: 13px 30px;
+      border-radius: 99px;
+      background: #e8954a;
+      color: #14100a;
+      font-weight: 700;
+      font-size: 14.5px;
+      text-decoration: none;
+      transition: transform .25s ease, box-shadow .25s ease;
+    }
+    a.home:hover { transform: translateY(-2px); box-shadow: 0 12px 30px -10px rgba(232,149,74,.45); }
+  </style>
+</head>
+<body>
+  <main>
+    <svg class="mark" viewBox="0 0 64 64" aria-hidden="true">
+      <polygon points="15,28 21,11 30,21" fill="#e8954a"/>
+      <polygon points="49,28 43,11 34,21" fill="#e8954a"/>
+      <circle cx="32" cy="37" r="16" fill="#e8954a"/>
+      <ellipse cx="32" cy="43" rx="8.5" ry="6.5" fill="#f6e7d3"/>
+      <circle cx="25.5" cy="34.5" r="2.2" fill="#0a0d12"/>
+      <circle cx="38.5" cy="34.5" r="2.2" fill="#0a0d12"/>
+      <path d="M29.8 40.4h4.4l-2.2 2.8z" fill="#0a0d12"/>
+    </svg>
+    <p class="code">ERROR 404 — UNSTRUCTURED</p>
+    <h1>このページは、まだ構造化されていません。</h1>
+    <p>お探しのページは見つかりませんでした。<br>課題はいつも、ホームから構造化が始まります。</p>
+    <a class="home" id="home-link" href="/">ホームへ戻る</a>
+  </main>
+  <script>
+    // On GitHub Pages project sites the home is /<repo>/ — derive it from the path.
+    (function () {
+      var a = document.getElementById("home-link");
+      var seg = location.pathname.split("/")[1];
+      if (location.hostname.endsWith("github.io") && seg) a.href = "/" + seg + "/";
+    })();
+  </script>
+</body>
+</html>

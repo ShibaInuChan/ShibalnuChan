@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shibainuchan.github.io/ShibalnuChan/sitemap.xml
