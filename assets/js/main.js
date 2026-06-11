@@ -675,13 +675,20 @@
 
   function initEmail() {
     var mailBtn = doc.getElementById("email-btn");
+    var addrEl = doc.getElementById("contact-addr");
+    var addr = buildAddr();
     if (mailBtn) {
-      mailBtn.addEventListener("click", function (e) {
-        e.preventDefault();
-        location.href = "mailto:" + buildAddr() + "?subject=" +
-          encodeURIComponent(currentLang === "ja" ? "サイトからのお問い合わせ" : "Inquiry from your website");
-      });
+      var setHref = function () {
+        mailBtn.setAttribute("href", "mailto:" + addr + "?subject=" +
+          encodeURIComponent(currentLang === "ja" ? "サイトからのお問い合わせ" : "Inquiry from your website"));
+      };
+      setHref();
+      // keep the subject in the current language
+      mailBtn.addEventListener("mouseenter", setHref);
+      mailBtn.addEventListener("focus", setHref);
+      mailBtn.addEventListener("touchstart", setHref, { passive: true });
     }
+    if (addrEl) addrEl.textContent = addr;
   }
 
   /* ---------------- shiba easter egg ---------------- */
