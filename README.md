@@ -1,29 +1,27 @@
-<h1 align="center">ShibalnuChan</h1>
+<h1 align="center">ShibaInuChan</h1>
 
 <p align="center">
   <strong>AI Architect</strong><br/>
   Investor &times; Web3 Researcher &times; WEB Marketer &times; Editor
 </p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Non-engineer+who+ships+real+products;Problems+first%2C+tech+second;Powered+by+Claude+Code" alt="Typing SVG" />
-</p>
-
 ---
 
 ## About Me
 
-I'm not a traditional engineer. I'm an investor, Web3 researcher, web marketer, and editor — and I build software to solve my own real-world problems.
+I don't start with technology — I start with problems I deeply understand.
 
-Using **Claude Code** as my primary tool, I design and implement products at the intersection of finance, blockchain, and media automation. My background gives me an unusual vantage point: I understand the problem domain deeply before writing a single line of code. The products below are the natural convergence of that knowledge.
+Using **COA (Cognitive OS Architecture)**, a reasoning framework I've spent over a year refining through real-world practice, I structure problems before writing a single line of code. Claude Code then turns that structure into working products.
+
+This isn't about domain expertise in any one field. It's a method: find a problem you have the judgment to evaluate, structure it with COA, build it with Claude Code. The products below span finance, real estate, and even 3D printing — different domains, same method.
 
 > *"AI Architect — not someone who writes code for a living, but someone who uses AI to engineer solutions that matter."*
 
 ---
 
-## Products
+## Core Products
 
-### ♟️ AXIS COA
+### ♟️ AXIS-COA
 > Subscription SaaS for strategic analysis — powered by Cognitive OS Architecture, a proprietary reasoning framework built on top of Claude
 
 🔗 [coa-app.onrender.com](https://coa-app.onrender.com)
@@ -35,25 +33,43 @@ Using **Claude Code** as my primary tool, I design and implement products at the
 ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)
-![DuckDuckGo](https://img.shields.io/badge/DuckDuckGo_Search-DE5833?style=flat-square&logo=duckduckgo&logoColor=white)
 
-Rather than prompting an LLM directly, AXIS COA runs each session through Cognitive OS Architecture — a structured cognitive pipeline that executes across four discrete phases: web research, situation structuring, assumption surfacing, and strategy generation. Input your client's context, challenges, and goals; AXIS COA handles the rest. Supabase handles auth and data persistence; Stripe powers subscription billing with plan-based session and turn limits, backed by a FastAPI webhook layer for real-time plan sync. Hosted on Render.
+Rather than prompting an LLM directly, AXIS-COA runs each session through Cognitive OS Architecture — a structured cognitive pipeline executing across discrete phases: web research, situation structuring, assumption surfacing, and strategy generation. Input your context, challenges, and goals; AXIS-COA handles the rest. Supabase handles auth and persistence; Stripe powers subscription billing with plan-based limits, backed by a FastAPI webhook layer for real-time plan sync. Hosted on Render.
+
+---
+
+### 🗺️ TERRAIN-COA
+> Real estate investment analysis platform — combines GSI map tiles, COA reasoning, and real transaction data from Japan's MLIT to structure "what conditions would make this investment work"
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![MapLibre GL JS](https://img.shields.io/badge/MapLibre_GL_JS-396CB2?style=flat-square&logo=maplibre&logoColor=white)
+![Claude API](https://img.shields.io/badge/Claude_API-CC785C?style=flat-square&logo=anthropic&logoColor=white)
+![Reinfolib](https://img.shields.io/badge/Reinfolib-4A5568?style=flat-square&logoColor=white)
+![GSI APIs](https://img.shields.io/badge/GSI_APIs-2E7D32?style=flat-square&logoColor=white)
+![Yahoo! Local Search](https://img.shields.io/badge/Yahoo!_Local_Search-6001D2?style=flat-square&logo=yahoo&logoColor=white)
+![e-Stat](https://img.shields.io/badge/e--Stat-00549F?style=flat-square&logoColor=white)
+
+Rather than a binary buy/don't-buy verdict, TERRAIN-COA presents the **conditions under which an investment becomes viable** — price negotiation targets, financing structures, exit strategy triggers. Real transaction data (Reinfolib), elevation/disaster risk (GSI), facility and station data (Yahoo! Local Search), and population trends (e-Stat) are combined with a Claude-powered COA analysis (Market → Asset → Strategy → Risk → Boundary).
 
 ---
 
-### 🔗 Regional Community Points System (Prototype)
-> Blockchain-based loyalty points for local communities — zero legal risk by design
+### 🐾 katachi — 「かたちにする」
+> Turn a single photo into a 3D model — for pets and children, with consumer-grade simplicity
 
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
-![Polygon](https://img.shields.io/badge/Polygon-8247E5?style=flat-square&logo=polygon&logoColor=white)
-![Hardhat](https://img.shields.io/badge/Hardhat-FFF100?style=flat-square&logo=hardhat&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![LINE API](https://img.shields.io/badge/LINE_API-00C300?style=flat-square&logo=line&logoColor=white)
-![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Tripo API](https://img.shields.io/badge/Tripo_API-FF6B35?style=flat-square&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
-A point system for regional communities built on Polygon. Designed from the ground up to avoid securities law and token regulation risk — architecture decisions driven by legal research, not just technical preference. LINE bot interface for non-crypto-native participants.
+Today, 3D printers and 3D modeling tools are powerful but built for professionals — most people who'd love a 3D-printed memento of their pet or child have no way to create the data. katachi closes that gap: upload one photo, get a free gray-mesh preview, and purchase a textured GLB/STL ready for printing. Pet/child photos were chosen as the entry point because the emotional motivation is strong and immediate — but the underlying goal is bridging the gap between "people who want something made" and "people who have a 3D printer."
 
 ---
+
+## Personal Tools
+
+Smaller tools built to solve my own day-to-day problems — same method, smaller scope.
 
 ### 📊 Investment Macro Dashboard
 > US & Japan macroeconomic indicators with monthly AI-powered structural analysis
@@ -65,7 +81,7 @@ A point system for regional communities built on Polygon. Designed from the grou
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Claude API](https://img.shields.io/badge/Claude_API-CC785C?style=flat-square&logo=anthropic&logoColor=white)
 
-Displays key economic signals (CPI, yield curves, interest rate spreads, etc.) for US and Japanese markets. Data is automatically fetched from FRED twice daily via GitHub Actions. Claude AI generates monthly structural macro analysis — turning numbers into actionable investment context.
+US & Japan macroeconomic indicators (CPI, yield curves, rate spreads) auto-fetched from FRED twice daily via GitHub Actions, with monthly Claude-generated structural analysis.
 
 ---
 
@@ -76,61 +92,47 @@ Displays key economic signals (CPI, yield curves, interest rate spreads, etc.) f
 ![LINE API](https://img.shields.io/badge/LINE_API-00C300?style=flat-square&logo=line&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
 
-Scrapes asset prices using BeautifulSoup4 and pushes a morning summary to LINE every day via GitHub Actions. No app to open — the data comes to you.
+Scrapes prices via BeautifulSoup4 and pushes a morning summary to LINE every weekday via GitHub Actions.
 
 ---
 
-### 📰 News Generator
-> Slack 👍 reaction triggers an AI-generated article draft, managed entirely in Notion
+### 💰 Asset Management
+> A MoneyForward-like personal asset tracker
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Slack API](https://img.shields.io/badge/Slack_API-4A154B?style=flat-square&logo=slack&logoColor=white)
-![Notion API](https://img.shields.io/badge/Notion_API-000000?style=flat-square&logo=notion&logoColor=white)
-![Claude API](https://img.shields.io/badge/Claude_API-CC785C?style=flat-square&logo=anthropic&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Recharts](https://img.shields.io/badge/Recharts-22B5BF?style=flat-square&logoColor=white)
 
-An editorial automation pipeline. When a team member reacts with 👍 on a Slack message, the system fetches the linked article (via Jina AI), runs it through a Claude prompt, and outputs a structured draft. Prompts are maintained by non-technical editors in Notion — zero code changes required.
+Traditional and alternative assets (crypto, gold) tracked separately, with monthly snapshots and chart visualization.
 
 ---
 
-## Tech Stack
+### 📑 slides-workspace
+> A Claude Code workspace for turning structured thinking into slide presentations
 
-**Languages**
-
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
-
-**Infrastructure**
-
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
-![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
-![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
-
-**AI**
-
-![Claude API](https://img.shields.io/badge/Claude_API-CC785C?style=flat-square&logo=anthropic&logoColor=white)
+![pptxgenjs](https://img.shields.io/badge/pptxgenjs-F2502C?style=flat-square&logoColor=white)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-CC785C?style=flat-square&logo=anthropic&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 
-**Blockchain**
+Turns COA outputs (or any structured thinking) into slide presentations — via HTML-to-PPTX conversion or template-based editing, with a content design workflow.
 
+---
+
+## Experiments
+
+### 🪙 Regional Community Points System (Prototype)
+> Blockchain-based loyalty points for local communities — zero legal risk by design
+
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
 ![Polygon](https://img.shields.io/badge/Polygon-8247E5?style=flat-square&logo=polygon&logoColor=white)
-![ethers.js](https://img.shields.io/badge/ethers.js-2535A0?style=flat-square&logo=ethereum&logoColor=white)
-![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-4E5EE4?style=flat-square&logo=openzeppelin&logoColor=white)
+![Hardhat](https://img.shields.io/badge/Hardhat-FFF100?style=flat-square&logo=hardhat&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![LINE API](https://img.shields.io/badge/LINE_API-00C300?style=flat-square&logo=line&logoColor=white)
 
-**Integrations**
-
-![LINE](https://img.shields.io/badge/LINE-00C300?style=flat-square&logo=line&logoColor=white)
-![Slack](https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=slack&logoColor=white)
-![Notion](https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white)
+Blockchain-based loyalty points for local communities, on Polygon — designed from the ground up to avoid securities law and token regulation risk, with a LINE bot interface for non-crypto-native participants.
 
 ---
 
 <p align="center">
-  <em>Every product here started not with "what can I build?" but "what problem do I have?"</em>
+  <em>Every product here started not with "what can I build?" but "what problem do I have — and do I actually know what a good answer looks like?"</em>
 </p>
