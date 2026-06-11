@@ -119,7 +119,6 @@
     "contact.title": "Tell me about your problem.",
     "contact.text": "Product development, COA-powered strategy analysis and sparring, collaborations — feel free to reach out. Your problem doesn't need to be in words yet; structuring it is my job.",
     "contact.email": "Send an email",
-    "contact.copy": "Copy address",
     "contact.note": "// replies usually within a few days",
 
     // footer
@@ -128,7 +127,6 @@
     "footer.made": "Structured with <b>COA</b> × built with <b>Claude Code</b>",
 
     // misc
-    "toast.copied": "Email address copied",
     "toast.woof": "Woof! Thanks for visiting 🐕",
     "aria.toTop": "Back to top",
     "aria.theme": "Toggle color theme",
@@ -166,7 +164,6 @@
   function t(key) {
     if (currentLang === "en" && EN[key]) return EN[key];
     var ja = {
-      "toast.copied": "メールアドレスをコピーしました",
       "toast.woof": "ワン!ようこそ 🐕"
     };
     return ja[key] || EN[key] || key;
@@ -678,23 +675,11 @@
 
   function initEmail() {
     var mailBtn = doc.getElementById("email-btn");
-    var copyBtn = doc.getElementById("copy-email");
     if (mailBtn) {
       mailBtn.addEventListener("click", function (e) {
         e.preventDefault();
         location.href = "mailto:" + buildAddr() + "?subject=" +
           encodeURIComponent(currentLang === "ja" ? "サイトからのお問い合わせ" : "Inquiry from your website");
-      });
-    }
-    if (copyBtn) {
-      copyBtn.addEventListener("click", function () {
-        var addr = buildAddr();
-        function ok() { toast(t("toast.copied")); }
-        if (navigator.clipboard && navigator.clipboard.writeText) {
-          navigator.clipboard.writeText(addr).then(ok, function () { window.prompt("Email:", addr); });
-        } else {
-          window.prompt("Email:", addr);
-        }
       });
     }
   }
