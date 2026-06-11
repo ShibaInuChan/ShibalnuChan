@@ -1237,21 +1237,8 @@ ul { margin: 0; padding: 0; list-style: none; }
   justify-content: center;
   gap: 14px;
 }
-.contact-addr {
-  margin-top: 22px;
-  font-family: var(--font-mono);
-  font-size: 13.5px;
-  letter-spacing: 0.08em;
-  color: var(--muted);
-}
-.contact-addr span {
-  user-select: all; /* one click selects the whole address */
-  padding: 4px 10px;
-  border: 1px dashed var(--line);
-  border-radius: var(--radius-sm);
-}
 .contact-note {
-  margin-top: 18px;
+  margin-top: 26px;
   font-family: var(--font-mono);
   font-size: 11.5px;
   color: var(--faint);
