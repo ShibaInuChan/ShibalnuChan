@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://shibainuchan.github.io/ShibalnuChan/sitemap.xml
+Sitemap: https://motoyasu-kato.com/sitemap.xml

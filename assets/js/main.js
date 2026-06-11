@@ -671,8 +671,8 @@
 
   function buildAddr() {
     // assembled at runtime to keep scrapers away
-    var u = ["m", "knight", "1018"].join(".");
-    var d = ["gmail", "com"].join(".");
+    var u = ["info"].join(".");
+    var d = ["motoyasu-kato", "com"].join(".");
     return u + "@" + d;
   }
 

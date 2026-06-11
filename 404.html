@@ -61,13 +61,5 @@
     <p>お探しのページは見つかりませんでした。<br>課題はいつも、ホームから構造化が始まります。</p>
     <a class="home" id="home-link" href="/">ホームへ戻る</a>
   </main>
-  <script>
-    // On GitHub Pages project sites the home is /<repo>/ — derive it from the path.
-    (function () {
-      var a = document.getElementById("home-link");
-      var seg = location.pathname.split("/")[1];
-      if (location.hostname.endsWith("github.io") && seg) a.href = "/" + seg + "/";
-    })();
-  </script>
 </body>
 </html>
