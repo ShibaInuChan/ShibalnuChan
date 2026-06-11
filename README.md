@@ -53,7 +53,7 @@ Rather than a binary buy/don't-buy verdict, TERRAIN-COA presents the **condition
 
 ---
 
-### 🐾 katachi — 「かたちにする」
+### 🐾 katachi — 「かたち」
 > Turn a single photo into a 3D model — for pets and children, with consumer-grade simplicity
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
