@@ -60,6 +60,8 @@ Rather than a binary buy/don't-buy verdict, TERRAIN-COA presents the **condition
 ### 🐾 katachi — 「かたち」
 > Turn a single photo into a 3D model — for pets and children, with consumer-grade simplicity
 
+🔗 [katachi-delta.vercel.app](https://katachi-delta.vercel.app/)
+
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Tripo API](https://img.shields.io/badge/Tripo_API-FF6B35?style=flat-square&logoColor=white)
