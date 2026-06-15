@@ -19,6 +19,7 @@
   --accent-soft: rgba(232, 149, 74, 0.14);
   --accent-2: #5fb8bf;      /* teal */
   --accent-3: #e87a90;      /* warm pink */
+  --accent-4: #9d8df1;      /* relief violet */
   --ok: #7ec97e;
   --glow: rgba(232, 149, 74, 0.35);
   --shadow: 0 24px 60px -24px rgba(0, 0, 0, 0.55);
@@ -46,6 +47,7 @@
   --accent-soft: rgba(217, 124, 43, 0.12);
   --accent-2: #2f8d95;
   --accent-3: #d05e77;
+  --accent-4: #6f5bd0;
   --glow: rgba(217, 124, 43, 0.28);
   --shadow: 0 24px 60px -28px rgba(60, 42, 18, 0.28);
   color-scheme: light;
@@ -924,6 +926,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 
 .product-card.terrain { --pa: var(--accent-2); }
 .product-card.katachi { --pa: var(--accent-3); }
+.product-card.relief  { --pa: var(--accent-4); }
 
 /* editorial depth: huge outlined index number behind each card */
 .product-card::before {
@@ -955,6 +958,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   .product-card.axis    { top: calc(var(--header-h) + 18px); }
   .product-card.terrain { top: calc(var(--header-h) + 34px); }
   .product-card.katachi { top: calc(var(--header-h) + 50px); }
+  .product-card.relief  { top: calc(var(--header-h) + 66px); }
 }
 
 .product-media {

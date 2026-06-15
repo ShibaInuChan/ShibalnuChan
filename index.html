@@ -66,7 +66,8 @@
     "hasPart": [
       { "@type": "SoftwareApplication", "name": "AXIS-COA", "applicationCategory": "BusinessApplication", "url": "https://coa-app.onrender.com", "description": "Subscription SaaS for strategic analysis powered by Cognitive OS Architecture." },
       { "@type": "SoftwareApplication", "name": "TERRAIN-COA", "applicationCategory": "BusinessApplication", "description": "Real estate investment analysis platform combining public data with COA reasoning." },
-      { "@type": "SoftwareApplication", "name": "katachi", "applicationCategory": "DesignApplication", "description": "Turns a single photo into a 3D-printable model." }
+      { "@type": "SoftwareApplication", "name": "katachi", "applicationCategory": "DesignApplication", "description": "Turns a single photo into a 3D-printable model." },
+      { "@type": "SoftwareApplication", "name": "Relief-Forge", "applicationCategory": "DesignApplication", "url": "https://github.com/ShibaInuChan/Relief-Forge", "description": "Converts photos into CNC-ready reliefs on flat plates or existing STL surfaces, outputting IGES (B-spline), G-code and a preview PNG via grayscale depth mapping." }
     ]
   }
   </script>
@@ -201,7 +202,7 @@
 
           <div class="stats reveal-r">
             <div class="stat">
-              <div class="stat-num"><span data-count="8">0</span></div>
+              <div class="stat-num"><span data-count="9">0</span></div>
               <div class="stat-label" data-i18n="about.stat1">リリースしたプロダクト</div>
             </div>
             <div class="stat">
@@ -420,6 +421,56 @@
             <p class="product-desc" data-i18n="katachi.desc">3Dプリンタやモデリングツールはプロ向けに進化してきた一方、「ペットや子どもの思い出を立体にしたい」人の多くは、データをつくる手段を持っていません。katachiはそのギャップを埋めます。<b>写真を1枚アップロードすると無料のグレーメッシュプレビューが生成され、気に入ればテクスチャ付きGLB/STLを購入</b>して、そのまま3Dプリントへ。「つくってほしい人」と「3Dプリンタを持つ人」をつなぐことが、その先のゴールです。</p>
             <div class="chips">
               <span class="chip">Next.js</span><span class="chip">TypeScript</span><span class="chip">Tripo API</span><span class="chip">Stripe</span><span class="chip">Supabase</span><span class="chip">Vercel</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Relief-Forge -->
+        <article class="product-card relief alt reveal-fade" data-num="04">
+          <div class="product-media" aria-hidden="true">
+            <div class="media-grid"></div>
+            <svg viewBox="0 0 360 280" fill="none" font-family="JetBrains Mono, monospace">
+              <text x="28" y="34" font-size="9" fill="var(--faint)">grayscale → height → relief</text>
+              <!-- depth map (left): bands light→dark = height -->
+              <rect x="46" y="86" width="96" height="14" fill="var(--accent-4)" opacity="0.12"/>
+              <rect x="46" y="100" width="96" height="14" fill="var(--accent-4)" opacity="0.26"/>
+              <rect x="46" y="114" width="96" height="14" fill="var(--accent-4)" opacity="0.42"/>
+              <rect x="46" y="128" width="96" height="14" fill="var(--accent-4)" opacity="0.6"/>
+              <rect x="46" y="142" width="96" height="14" fill="var(--accent-4)" opacity="0.78"/>
+              <rect x="46" y="156" width="96" height="14" fill="var(--accent-4)" opacity="0.92"/>
+              <rect x="44" y="84" width="100" height="88" rx="6" stroke="var(--line-strong)"/>
+              <text x="94" y="190" text-anchor="middle" font-size="9" fill="var(--faint)">DEPTH MAP</text>
+              <!-- transfer arrow -->
+              <path class="dash-flow" d="M156 130 H196" stroke="var(--accent-4)" stroke-width="1.6"/>
+              <polygon points="196,123 208,130 196,137" fill="var(--accent-4)"/>
+              <!-- end mill descending -->
+              <g class="float-soft">
+                <rect x="262" y="64" width="9" height="28" rx="2" fill="var(--accent-4)"/>
+                <polygon points="262,92 271,92 266.5,101" fill="var(--accent-4)"/>
+                <!-- toolpath -->
+                <path class="dash-flow" d="M226 110 H306 M306 100 H226 M226 90 H306" stroke="var(--accent-4)" stroke-width="1" opacity="0.55"/>
+                <!-- relief contours -->
+                <path d="M226 170 C242 150 254 150 268 162 C280 172 294 150 308 156" stroke="var(--accent-4)" stroke-width="1.3" opacity="0.4"/>
+                <path d="M226 158 C242 138 254 138 268 150 C280 160 294 138 308 144" stroke="var(--accent-4)" stroke-width="1.3" opacity="0.7"/>
+                <path d="M226 146 C242 126 254 126 268 138 C280 148 294 126 308 132" stroke="var(--accent-4)" stroke-width="1.5"/>
+              </g>
+              <text x="267" y="200" text-anchor="middle" font-size="9" fill="var(--faint)">IGES / G-CODE</text>
+            </svg>
+          </div>
+          <div class="product-body">
+            <p class="product-tag" data-i18n="relief.tag">写真 → CNCレリーフ</p>
+            <h3 class="product-title"><span class="emoji" aria-hidden="true">🪵</span>Relief-Forge</h3>
+            <p class="product-tagline" data-i18n="relief.tagline">写真を、削り出せる起伏に。</p>
+            <p class="mini-pipe">photo <b>→</b> grayscale depth <b>→</b> relief surface <b>→</b> IGES / G-code</p>
+            <p class="product-desc" data-i18n="relief.desc">写真をグレースケールの深度マップに変換し、平面プレートや既存のSTL曲面へ起伏(レリーフ)として転写するツール。<b>B-スプライン曲面のIGES、CNC加工用のG-code、プレビューPNG</b>を出力し、そのままCNCルーターや切削機へ渡せます。盛り上げて造形する3Dプリント(katachi)に対し、こちらは「削り出す」製造へ — 写真を立体にするという同じ問いを、別の出口で解いた実装です。</p>
+            <div class="chips">
+              <span class="chip">Python</span><span class="chip">NumPy</span><span class="chip">Pillow</span><span class="chip">Height Map</span><span class="chip">IGES (B-spline)</span><span class="chip">G-code</span><span class="chip">Fusion 360</span>
+            </div>
+            <div class="product-links">
+              <a class="link-arrow" href="https://github.com/ShibaInuChan/Relief-Forge" target="_blank" rel="noopener">
+                <span data-i18n="relief.visit">リポジトリを見る</span>
+                <svg aria-hidden="true"><use href="#i-arrow-ne"/></svg>
+              </a>
             </div>
           </div>
         </article>
