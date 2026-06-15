@@ -5,6 +5,10 @@
   Investor &times; Web3 Researcher &times; WEB Marketer &times; Editor
 </p>
 
+<p align="center">
+  <a href="https://motoyasu-kato.com/">🌐 motoyasu-kato.com</a>
+</p>
+
 ---
 
 ## About Me
@@ -13,7 +17,7 @@ I don't start with technology — I start with problems I deeply understand.
 
 Using **COA (Cognitive OS Architecture)**, a reasoning framework I've spent over a year refining through real-world practice, I structure problems before writing a single line of code. Claude Code then turns that structure into working products.
 
-This isn't about domain expertise in any one field. It's a method: find a problem you have the judgment to evaluate, structure it with COA, build it with Claude Code. The products below span finance, real estate, and even 3D printing — different domains, same method.
+This isn't about domain expertise in any one field. It's a method: find a problem you have the judgment to evaluate, structure it with COA, build it with Claude Code. The products below span finance, real estate, and physical fabrication (3D printing and CNC) — different domains, same method.
 
 > *"AI Architect — not someone who writes code for a living, but someone who uses AI to engineer solutions that matter."*
 
@@ -64,6 +68,23 @@ Rather than a binary buy/don't-buy verdict, TERRAIN-COA presents the **condition
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
 Today, 3D printers and 3D modeling tools are powerful but built for professionals — most people who'd love a 3D-printed memento of their pet or child have no way to create the data. katachi closes that gap: upload one photo, get a free gray-mesh preview, and purchase a textured GLB/STL ready for printing. Pet/child photos were chosen as the entry point because the emotional motivation is strong and immediate — but the underlying goal is bridging the gap between "people who want something made" and "people who have a 3D printer."
+
+---
+
+### 🪵 Relief-Forge
+> Convert a photo into a CNC-ready relief — carved, not printed
+
+🔗 [github.com/ShibaInuChan/Relief-Forge](https://github.com/ShibaInuChan/Relief-Forge)
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Pillow](https://img.shields.io/badge/Pillow-4B8BBE?style=flat-square&logoColor=white)
+![Fusion 360](https://img.shields.io/badge/Fusion_360-FF6F00?style=flat-square&logo=autodesk&logoColor=white)
+![IGES](https://img.shields.io/badge/IGES_B--spline-4A5568?style=flat-square&logoColor=white)
+![G-code](https://img.shields.io/badge/G--code-5A6378?style=flat-square&logoColor=white)
+![CNC](https://img.shields.io/badge/CNC-6F5BD0?style=flat-square&logoColor=white)
+
+Where katachi builds form up with a 3D printer, Relief-Forge carves it away. Upload a photo and it becomes a grayscale depth map, then a relief transferred onto a flat plate or an existing STL surface — exported as B-spline IGES, CNC-ready G-code, and a preview PNG, ready to hand straight to a CNC router or mill. Same question as katachi — turning a photo into a physical object — solved through a different output.
 
 ---
 
