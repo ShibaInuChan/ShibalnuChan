@@ -85,6 +85,11 @@
     "katachi.tagline": "One photo becomes a shape you can hold.",
     "katachi.desc": "3D printers and modeling tools are powerful but built for professionals — most people who'd love a 3D-printed memento of their pet or child have no way to create the data. katachi closes that gap: <b>upload one photo, get a free gray-mesh preview, then purchase a print-ready textured GLB/STL</b>. The deeper goal is bridging “people who want something made” and “people who own a 3D printer.”",
 
+    "relief.tag": "Photo to CNC relief",
+    "relief.tagline": "Turn a photo into relief you can carve.",
+    "relief.desc": "A tool that converts a photo into a grayscale depth map and transfers it as a relief onto a flat plate or an existing STL surface. It outputs <b>B-spline IGES, CNC-ready G-code, and a preview PNG</b> — ready to hand straight to a CNC router or mill. Where katachi builds form up with 3D printing, Relief-Forge carves it away: the same question — a photo into a physical object — solved through a different output.",
+    "relief.visit": "View on GitHub",
+
     // tools
     "tools.label": "04 — Personal Tools",
     "tools.title": "Solving my own problems first",
