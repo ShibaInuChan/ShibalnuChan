@@ -83,6 +83,7 @@
 
     "katachi.tag": "Photo to 3D model",
     "katachi.tagline": "One photo becomes a shape you can hold.",
+    "katachi.visit": "Open the app",
     "katachi.desc": "3D printers and modeling tools are powerful but built for professionals — most people who'd love a 3D-printed memento of their pet or child have no way to create the data. katachi closes that gap: <b>upload one photo, get a free gray-mesh preview, then purchase a print-ready textured GLB/STL</b>. The deeper goal is bridging “people who want something made” and “people who own a 3D printer.”",
 
     "relief.tag": "Photo to CNC relief",
