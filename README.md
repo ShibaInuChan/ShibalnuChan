@@ -83,7 +83,6 @@ Today, 3D printers and 3D modeling tools are powerful but built for professional
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![Pillow](https://img.shields.io/badge/Pillow-4B8BBE?style=flat-square&logoColor=white)
-![Fusion 360](https://img.shields.io/badge/Fusion_360-FF6F00?style=flat-square&logo=autodesk&logoColor=white)
 ![IGES](https://img.shields.io/badge/IGES_B--spline-4A5568?style=flat-square&logoColor=white)
 ![G-code](https://img.shields.io/badge/G--code-5A6378?style=flat-square&logoColor=white)
 ![CNC](https://img.shields.io/badge/CNC-6F5BD0?style=flat-square&logoColor=white)
