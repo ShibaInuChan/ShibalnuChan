@@ -45,6 +45,8 @@ Rather than prompting an LLM directly, AXIS-COA runs each session through Cognit
 ### 🗺️ TERRAIN-COA
 > Real estate investment analysis platform — combines GSI map tiles, COA reasoning, and real transaction data from Japan's MLIT to structure "what conditions would make this investment work"
 
+🔗 [terrain-iq.vercel.app](https://terrain-iq.vercel.app/)
+
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 ![MapLibre GL JS](https://img.shields.io/badge/MapLibre_GL_JS-396CB2?style=flat-square&logo=maplibre&logoColor=white)
 ![Claude API](https://img.shields.io/badge/Claude_API-CC785C?style=flat-square&logo=anthropic&logoColor=white)
