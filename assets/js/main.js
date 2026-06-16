@@ -80,6 +80,7 @@
     "terrain.tag": "Real-estate investment analysis",
     "terrain.tagline": "Not “buy or pass” — “under what conditions does this work?”",
     "terrain.desc": "A platform that combines real transaction data from Japan's MLIT (Reinfolib), elevation and disaster risk (GSI), facility and station data (Yahoo! Local Search), and population trends (e-Stat) with Claude-powered COA analysis. Instead of a binary verdict, it surfaces <b>the conditions under which an investment becomes viable</b> — price negotiation targets, financing structures, exit-strategy triggers.",
+    "terrain.visit": "Open demo",
 
     "katachi.tag": "Photo to 3D model",
     "katachi.tagline": "One photo becomes a shape you can hold.",
