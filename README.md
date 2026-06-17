@@ -9,6 +9,10 @@
   <a href="https://motoyasu-kato.com/">🌐 motoyasu-kato.com</a>
 </p>
 
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Problems+first%2C+tech+second;Non-engineer+who+ships+real+products;Powered+by+COA+%26+Claude+Code" alt="Typing SVG" />
+</p>
+
 ---
 
 ## About Me
@@ -20,6 +24,21 @@ Using **COA (Cognitive OS Architecture)**, a reasoning framework I've spent over
 This isn't about domain expertise in any one field. It's a method: find a problem you have the judgment to evaluate, structure it with COA, build it with Claude Code. The products below span finance, real estate, and physical fabrication (3D printing and CNC) — different domains, same method.
 
 > *"AI Architect — not someone who writes code for a living, but someone who uses AI to engineer solutions that matter."*
+
+---
+
+<p align="center">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=ShibaInuChan&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+  <img height="160" src="https://github-readme-streak-stats.herokuapp.com/?user=ShibaInuChan&theme=tokyonight&hide_border=true" />
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ShibaInuChan/ShibalnuChan/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ShibaInuChan/ShibalnuChan/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/ShibaInuChan/ShibalnuChan/output/github-contribution-grid-snake-dark.svg">
+  </picture>
+</p>
 
 ---
 
@@ -158,6 +177,14 @@ Turns COA outputs (or any structured thinking) into slide presentations — via 
 ![LINE API](https://img.shields.io/badge/LINE_API-00C300?style=flat-square&logo=line&logoColor=white)
 
 Blockchain-based loyalty points for local communities, on Polygon — designed from the ground up to avoid securities law and token regulation risk, with a LINE bot interface for non-crypto-native participants.
+
+---
+
+## Tech
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,js,ts,react,nextjs,nodejs,fastapi,supabase,vercel,solidity,github&theme=dark" />
+</p>
 
 ---
 
