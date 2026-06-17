@@ -43,7 +43,7 @@ Rather than prompting an LLM directly, AXIS-COA runs each session through Cognit
 
 ---
 
-### 🗺️ TERRAIN-COA
+### 📍 TERRAIN-COA
 > Real estate investment analysis platform — combines GSI map tiles, COA reasoning, and real transaction data from Japan's MLIT to structure "what conditions would make this investment work"
 
 🔗 [terrain-iq.vercel.app](https://terrain-iq.vercel.app/)
@@ -60,7 +60,7 @@ Rather than a binary buy/don't-buy verdict, TERRAIN-COA presents the **condition
 
 ---
 
-### 🐾 katachi — 「かたち」
+### 📷 katachi — 「かたち」
 > Turn a single photo into a 3D model — for pets and children, with consumer-grade simplicity
 
 🔗 [katachi-delta.vercel.app](https://katachi-delta.vercel.app/)
@@ -76,7 +76,7 @@ Today, 3D printers and 3D modeling tools are powerful but built for professional
 
 ---
 
-### 🪵 Relief-Forge
+### 🗜️ Relief-Forge
 > Convert a photo into a CNC-ready relief — carved, not printed
 
 🔗 [github.com/ShibaInuChan/Relief-Forge](https://github.com/ShibaInuChan/Relief-Forge)
