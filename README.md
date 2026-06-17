@@ -6,10 +6,6 @@
 </p>
 
 <p align="center">
-  <a href="https://motoyasu-kato.com/">🌐 motoyasu-kato.com</a>
-</p>
-
-<p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Problems+first%2C+tech+second;Non-engineer+who+ships+real+products;Powered+by+COA+%26+Claude+Code" alt="Typing SVG" />
 </p>
 
