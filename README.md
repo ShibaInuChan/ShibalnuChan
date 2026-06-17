@@ -39,7 +39,7 @@ This isn't about domain expertise in any one field. It's a method: find a proble
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)
 ![Tavily](https://img.shields.io/badge/Tavily-2563EB?style=flat-square&logoColor=white)
 
-Rather than prompting an LLM directly, AXIS-COA runs each session through Cognitive OS Architecture — a structured cognitive pipeline executing across five discrete phases: web research, situation structuring, assumption surfacing, strategy generation, and strategy crystallization. Input your context, challenges, and goals; AXIS-COA handles the rest. Supabase handles auth and persistence; Stripe powers subscription billing with plan-based limits, backed by a FastAPI webhook layer for real-time plan sync. Hosted on Render.
+Rather than prompting an LLM directly, AXIS-COA runs each session through Cognitive OS Architecture — a structured cognitive pipeline executing across four discrete phases: web research, situation structuring, assumption surfacing, strategy generation and strategy crystallization. Input your context, challenges, and goals; AXIS-COA handles the rest. Supabase handles auth and persistence; Stripe powers subscription billing with plan-based limits, backed by a FastAPI webhook layer for real-time plan sync. Hosted on Render.
 
 ---
 
