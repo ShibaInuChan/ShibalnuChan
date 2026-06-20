@@ -150,14 +150,16 @@ Traditional and alternative assets (crypto, gold) tracked separately, with month
 
 ---
 
-### 📑 slides-workspace
-> A Claude Code workspace for turning structured thinking into slide presentations
+### 📑 Slides Generator
+> A Claude Code workspace for generating PPTX from structured thinking — two methods, five design presets
 
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![pptxgenjs](https://img.shields.io/badge/pptxgenjs-F2502C?style=flat-square&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-CC785C?style=flat-square&logo=anthropic&logoColor=white)
 
-Turns COA outputs (or any structured thinking) into slide presentations — via HTML-to-PPTX conversion or template-based editing, with a content design workflow.
+Two creation methods: **Method A** (html2pptx) builds slides from HTML/CSS rendered via headless browser — free-form design with five presets ranging from strategy briefs to keynote typography. **Method B** (template-based) unpacks an existing PPTX into XML, swaps text and images, and repacks — preserving the original design. Also supports PLAUD meeting recordings as input, extracting action items and key decisions into a draft slide deck ready for the next meeting.
 
 ---
 
