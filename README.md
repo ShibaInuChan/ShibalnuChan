@@ -151,7 +151,7 @@ Traditional and alternative assets (crypto, gold) tracked separately, with month
 ---
 
 ### 📑 Slides Generator
-> A Claude Code workspace for generating PPTX from structured thinking — two methods, five design presets
+> A Claude Code workspace for transforming research, meeting conversations, and structured thinking into audience-specific presentation decks.
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -159,7 +159,11 @@ Traditional and alternative assets (crypto, gold) tracked separately, with month
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-CC785C?style=flat-square&logo=anthropic&logoColor=white)
 
-Two creation methods: **Method A** (html2pptx) builds slides from HTML/CSS rendered via headless browser — free-form design with five presets ranging from strategy briefs to keynote typography. **Method B** (template-based) unpacks an existing PPTX into XML, swaps text and images, and repacks — preserving the original design. Also supports PLAUD meeting recordings as input, extracting action items and key decisions into a draft slide deck ready for the next meeting.
+Three presentation modes adapt the same knowledge for different audiences: Research (self-contained learning decks), Consulting (analysis and proposal decks), and Executive (decision briefs for leadership).
+
+Two rendering methods are supported. Method A (html2pptx) builds slides from HTML/CSS rendered via a headless browser, enabling free-form layouts with five design presets. Method B (template-based) unpacks an existing PPTX into XML, replaces text and images, and repacks it while preserving the original design.
+
+Supports multiple input sources—including standard prompts, Deep Research outputs, and PLAUD meeting recordings—which are processed through a three-phase workflow: Knowledge Design, Slide Design, and Implementation & QA.
 
 ---
 
